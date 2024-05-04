@@ -1,5 +1,5 @@
 
-# Nextreal
+# Next.js Chakra UI Template
 
 以下のフレームワークおよびライブラリを使用して構築されています:
 
