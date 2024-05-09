@@ -1,4 +1,3 @@
-
 # Next.js Chakra UI Template
 
 以下のフレームワークおよびライブラリを使用して構築されています:
@@ -37,8 +36,8 @@ npm start
 Dockerを使用してアプリケーションをコンテナ化する方法は以下の通りです．Dockerfileはアプリケーションの要件に応じて適宜編集してください．NEXT_PUBLICで始まる環境変数はビルド時に読み込まれるため，Dockerfileで明示的に設定する必要があります．
 
 ```bash
-docker build -t nextreal .
-docker run -p 3000:3000 nextreal
+docker build -t nextjs-chakraui-template .
+docker run -p 3000:3000 nextjs-chakraui-template
 ```
 
 ## Storybookの利用
